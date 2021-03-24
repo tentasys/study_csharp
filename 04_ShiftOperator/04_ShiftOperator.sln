@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_ShiftOperator", "04_ShiftOperator\04_ShiftOperator.csproj", "{CA538947-1DD6-4189-B421-0855C12C315C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA538947-1DD6-4189-B421-0855C12C315C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA538947-1DD6-4189-B421-0855C12C315C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA538947-1DD6-4189-B421-0855C12C315C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA538947-1DD6-4189-B421-0855C12C315C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C54B191-D07D-44E3-BC32-88055E533271}
+	EndGlobalSection
+EndGlobal
