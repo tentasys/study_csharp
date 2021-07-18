@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4ED320EB-7BF2-4CD4-895B-C1BD0A68424C}</ProjectGuid>
+    <ProjectGuid>{1DC435A1-A305-451F-8FD8-181E0103EA2C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_20_UsingControls</RootNamespace>
-    <AssemblyName>20_UsingControls</AssemblyName>
+    <RootNamespace>_20_AsyncFileIOWinForm</RootNamespace>
+    <AssemblyName>20_AsyncFileIOWinForm</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
