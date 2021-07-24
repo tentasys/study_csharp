@@ -54,13 +54,13 @@ namespace FUP
                     body = new BodyRequest(bBuffer);
                     break;
                 case CONSTANTS.REP_FILE_SEND:
-                    body = new BodyResponse(hBuffer);
+                    body = new BodyResponse(bBuffer);
                     break;
                 case CONSTANTS.FILE_SEND_DATA:
-                    body = new BodyData(hBuffer);
+                    body = new BodyData(bBuffer);
                     break;
                 case CONSTANTS.FILE_SEND_RES:
-                    body = new BodyResult(hBuffer);
+                    body = new BodyResult(bBuffer);
                     break;
                 default:
                     throw new Exception(

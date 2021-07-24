@@ -23,7 +23,7 @@ namespace FileReceiver
             if (Directory.Exists(dir) == false)
                 Directory.CreateDirectory(dir);
 
-            const int bindPort = 5245; //정의해놓은 서버 포트
+            const int bindPort = 5425; //정의해놓은 서버 포트
             TcpListener server = null;
             try
             {
@@ -124,8 +124,8 @@ namespace FileReceiver
                         file.Write(reqMsg.Body.GetBytes(), 0, reqMsg.Body.GetSize());
 
                         //분할 메시지가 아니라면 반복을 한번만 하고 빠져나온다
-                        if (reqMsg.Header.FRAGMENTED == CONSTANTS.NOT_FRAGMENTED)
-                            break;
+                        //if (reqMsg.Header.FRAGMENTED == CONSTANTS.NOT_FRAGMENTED)
+                        //    break;
                         //마지막 메시지면 반복문을 빠져나온다
                         if (reqMsg.Header.LASTMSG == CONSTANTS.LASTMSG)
                             break;

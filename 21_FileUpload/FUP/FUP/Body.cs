@@ -105,7 +105,7 @@ namespace FUP
         }
         public int GetSize()
         {
-            return sizeof(uint) + sizeof(Byte);
+            return sizeof(uint) + sizeof(byte);
         }
     }
 }
